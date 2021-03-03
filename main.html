@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="p.gif" type="image/gif" sizes="16x16">
+	<title>Panorama</title>
+	<style type="text/css">
+	body{
+		background-image: url("2015_1418658821_410.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	</style>
+</head>
+<body onload="time_r()">
+	<p id="time" style="font-size: 15px;text-align: right;color: #2b2b25"></p>
+	<script>
+  function time_r(){
+  today=new Date();
+  document.getElementById('time').innerHTML=today;
+  var t=setTimeout(time_r,1);
+  }
+  </script>
+	<center><b style="font-family: serif;font-size: 85px;color: #3c3b25;">Panorama</b></center>
+	<form>
+		<center><a href="p1.html" target="_self"><input type="button" name="main" value="Archy" style="background-color: #a7a687;width: 45%;border-radius: 20px;font-size: 25px"></a>
+			
+		</center>
+	</form>
+</body>
+</html>

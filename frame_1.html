@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="p.gif" type="image/gif" sizes="16x16">
+	<title>Panorama</title>
+	<style type="text/css">
+		body{
+    		background-image: linear-gradient(to right, #996633,#d2a479);
+    		color: black;
+		}
+		.div{
+			width: 80%;
+			height: 100px;
+			margin: 0px auto;
+		}
+		.div ul{
+
+		}
+		.div ul li{
+			float: left;
+			background-color: #87592c;
+			width: 200px;
+			list-style: none;
+			height: 50px;
+			line-height: 50px;
+			font-size: 20px;
+			text-align: center;
+			opacity: 0.7;
+			
+			
+
+		}
+		.div ul li ul{
+			display: none;
+		}
+		.div ul li:hover > ul{
+			display: block;
+		}
+		.div ul li:hover{
+			background-color: #ffd966;
+		}
+		</style>
+</head>
+<body>
+	<div class="div">
+<ul>
+		<li><a href="main.html" target="_parent">Home</a></li>
+		<li><a target="_parent">City</a>
+			<ul>
+				<li><a href="p2.html" target="_parent">Alexandria</a></li>
+				<li><a href="p3.html" target="_parent">Cairo</a></li>
+				<li><a href="p4.html" target="_parent">Aswan</a></li>
+			</ul>
+		</li>
+		<li><a href="p5.html" target="?parent">More Info</a></li>
+	</ul>
+</div>
+</body>
+</html>
